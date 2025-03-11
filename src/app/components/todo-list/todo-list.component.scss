@@ -1,0 +1,49 @@
+.todo-container {
+    max-width: 400px;
+    min-height: 350px;
+    max-height: 350px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: #a0f8c6;
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: 0px;
+    }
+}
+.completed {
+    text-decoration: line-through;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+    max-height: calc(100% - 70px);
+    overflow: hidden auto;
+    padding-inline-end: 10px;
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.my-input {
+    width: 80%;
+    height: 35px;
+    border-radius: 6px;
+    background-color: white;
+}
